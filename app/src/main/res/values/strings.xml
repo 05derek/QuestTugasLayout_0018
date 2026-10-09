@@ -11,4 +11,8 @@
     <string name="nama_1">Rizky Pratama</string>
     <string name="telp_1">081234567890</string>
     <string name="alamat_1">Godean, Sleman</string>
+
+    <string name="nama_2">Dimas Aditya</string>
+    <string name="telp_2">082345678901</string>
+    <string name="alamat_2">Banguntapan, Bantul</string>
 </resources>
