@@ -15,4 +15,8 @@
     <string name="nama_2">Dimas Aditya</string>
     <string name="telp_2">082345678901</string>
     <string name="alamat_2">Banguntapan, Bantul</string>
+
+    <string name="nama_3">Farhan Maulana</string>
+    <string name="telp_3">083456789012</string>
+    <string name="alamat_3">Kotagede, Yogyakarta</string>
 </resources>
