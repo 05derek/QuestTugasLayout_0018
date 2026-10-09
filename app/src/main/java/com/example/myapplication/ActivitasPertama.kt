@@ -67,6 +67,28 @@ fun KartuProfil(
                 contentDescription = null,
                 modifier = Modifier.size(60.dp)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 10.dp),
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = stringResource(id = nama),
+                    fontSize = ukuranNama.sp,
+                    fontFamily = fontNama,
+                    fontWeight = beratFont,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                    color = colorResource(id = R.color.text_putih)
+                )
+                Text(
+                    text = stringResource(id = alamat),
+                    fontSize = 14.sp,
+                    color = colorResource(id = R.color.text_kuning)
+                )
+            }
         }
     }
 }
