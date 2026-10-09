@@ -56,6 +56,17 @@ fun KartuProfil(
             containerColor = colorResource(id = warnaCard)
         )
     ) {
-
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(all = 8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(id = gambar),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
+        }
     }
 }
