@@ -49,6 +49,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier, name: String) {
                 warnaCard = R.color.card_2_bg,
                 gambar = R.drawable.logo_umy
             )
+            KartuProfil(
+                nama = R.string.nama_3,
+                telp = R.string.telp_3,
+                alamat = R.string.alamat_3,
+                warnaCard = R.color.card_3_bg,
+                gambar = R.drawable.logo_umy
+            )
 
 
             Text(
