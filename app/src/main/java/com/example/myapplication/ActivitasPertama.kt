@@ -35,6 +35,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier, name: String) {
                 beratFont = FontWeight.Normal,
                 ukuranNama = 20
             )
+            KartuProfil(
+                nama = R.string.nama_1,
+                telp = R.string.telp_1,
+                alamat = R.string.alamat_1,
+                warnaCard = R.color.card_1_bg,
+                gambar = R.drawable.logo_umy
+            )
 
 
             Text(
