@@ -89,6 +89,12 @@ fun KartuProfil(
                     color = colorResource(id = R.color.text_kuning)
                 )
             }
+
+            Image(
+                painter = painterResource(id = gambar),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
         }
     }
 }
