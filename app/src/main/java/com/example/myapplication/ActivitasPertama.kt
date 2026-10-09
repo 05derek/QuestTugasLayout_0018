@@ -36,3 +36,26 @@ fun ActivitasPertama(modifier: Modifier = Modifier, name: String) {
         }
     }
 }
+
+@Composable
+fun KartuProfil(
+    @StringRes nama: Int,
+    @StringRes telp: Int?,
+    @StringRes alamat: Int,
+    @ColorRes warnaCard: Int,
+    @DrawableRes gambar: Int,
+    fontNama: FontFamily = FontFamily.Default,
+    beratFont: FontWeight = FontWeight.Bold,
+    ukuranNama: Int = 20
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 6.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = warnaCard)
+        )
+    ) {
+
+    }
+}
