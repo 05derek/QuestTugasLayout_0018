@@ -83,6 +83,15 @@ fun KartuProfil(
                     overflow = TextOverflow.Ellipsis,
                     color = colorResource(id = R.color.text_putih)
                 )
+
+                if (telp != null) {
+                    Text(
+                        text = stringResource(id = telp),
+                        fontSize = 14.sp,
+                        color = colorResource(id = R.color.text_cyan)
+                    )
+                }
+
                 Text(
                     text = stringResource(id = alamat),
                     fontSize = 14.sp,
